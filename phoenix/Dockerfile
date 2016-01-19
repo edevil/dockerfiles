@@ -4,7 +4,7 @@ MAINTAINER André Cruz <andre@cabine.org>
 
 ENV PHOENIX_VERSION 1.1.2
 
-RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
 
 RUN apt-get install -y nodejs
 
